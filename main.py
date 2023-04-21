@@ -24,5 +24,9 @@ names = ['Тимур', 'Стас']
 names.append('Саша')
 names.append('Саша')
 
+print(set(names))
+
+print(upper('abc'))
+print(lower('aBc'))
 
 print('Hello git')
