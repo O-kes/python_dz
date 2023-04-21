@@ -30,4 +30,3 @@ print(upper('abc'))
 print(lower('aBc'))
 
 print('Hello git')
-# hello from gitlab
