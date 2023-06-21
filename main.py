@@ -1,32 +1,22 @@
-from main2 import upper, lower
+largest_number = -99999999999999
+number = int(input("Введите число или напишите -1, чтобы остановить программу: "))
+while number != -1:
+    if number > largest_number:
+        largest_number = number
+    print("Смена значения:", largest_number)
+    number = int(input("Введите число или напишите -1,  чтобы  остановить программу: "))
+    print("Наибольшее число:", largest_number)
 
 
-def sum_arg(a, b):
-    return a + b
 
 
-print(sum_arg(a=1, b=2))
 
-print(sum([1, 7]))
 
-print('A' * 5)
 
-a: dict = {
-    'a': 5,
-    'b': 3
-}
-b: list = [1, 2, 3]
-c: tuple = (1, 2, 3)
-d: set = set()
 
-names = ['Тимур', 'Стас']
 
-names.append('Саша')
-names.append('Саша')
 
-print(set(names))
 
-print(upper('abc'))
-print(lower('aBc'))
 
-print('Hello git')
+
+
